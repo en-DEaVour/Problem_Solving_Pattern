@@ -7,6 +7,22 @@ public class Pattern_3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number U want-: ");
         int n = sc.nextInt();
+//          for(int i=1;i<=n;i++)
+//         {
+//             for(int j=1;j<=n;j++)
+//             {
+//                 if(j>=n+1-i)
+//                 {
+//                     System.out.print("*");
+//                 }
+//                 else
+//                 {
+//                     System.out.print(" ");
+//                 }
+//             }
+//             System.out.println();
+//         }
+        
         for(int i=1;i<=n;i++)
         {
             for(int k=1;k<=n-i;k++)
