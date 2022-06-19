@@ -7,7 +7,7 @@ public class Pattern_5 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number U want-: ");
         int n = sc.nextInt();
-        // Here please give the value of n = 5 ;
+     
         for(int i =1;i<=n;i++)
         {
             for(int j=1;j<=n*2-1;j++)
